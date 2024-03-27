@@ -1,0 +1,27 @@
+<div>
+    <div class="w-60">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" [formGroup]="form">
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                    Event
+                </label>
+                <input formControlName="event"
+                    class="shadow appearance-none border border-black rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                    type="text">
+            </div>
+            <div class="mb-6">
+                <label for="hs-color-input" class="block text-sm font-medium mb-2 dark:text-white">Color picker</label>
+                <input type="color" formControlName="color"
+                    class="p-1 h-10 w-14 block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700"
+                    id="hs-color-input" value="#2563eb" title="Choose your color">
+            </div>
+            <div class="flex items-center justify-between">
+                <button (click)="onSubmit()"
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

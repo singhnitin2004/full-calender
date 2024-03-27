@@ -11,13 +11,30 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.0",
+    "@angular/cdk": "^17.2.1",
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
     "@angular/forms": "^17.0.0",
+    "@angular/material": "^17.2.1",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "@fullcalendar/angular": "^6.1.10",
+    "@fullcalendar/bootstrap5": "^6.1.11",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/interaction": "^6.1.11",
+    "@fullcalendar/multimonth": "^6.1.11",
+    "@fullcalendar/resource": "^6.1.11",
+    "@fullcalendar/resource-timeline": "^6.1.11",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
@@ -33,6 +50,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "tailwindcss": "^3.4.1",
     "typescript": "~5.2.2"
   }
 }
